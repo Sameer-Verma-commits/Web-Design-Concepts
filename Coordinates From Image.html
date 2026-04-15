@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Image Coordinates</title>
+</head>
+<body>
+    <center>
+    <h4 >Click Inside Image </h4>
+    <img id="myImage"
+        src="C:\Users\Austin Griffin\Pictures\kakashi.png"
+        height="200"
+        width="300"
+        style="cursor: crosshair; border: 1px solid black;">
+    <p id="output">Coordinates: </p>
+    <script>
+        const img = document.getElementById("myImage");
+        const output = document.getElementById("output");
+
+        img.onclick = (e) => {
+            const x = e.offsetX;
+            const y = e.offsetY;
+
+            output.innerText = "Coordinates x: " + x + " y: " + y;
+        };
+    </script>
+    </center>
+</body>
+</html>
