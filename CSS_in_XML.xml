@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stylesheet_for_xml.css"?>
+
+<students>
+    <student>
+        <name>Sameer Verma</name>
+        <email>sameer@gmail.com</email>
+        <age>20</age>
+        <course>BCA</course>
+    </student>
+
+    <student>
+        <name>Rahul Sharma</name>
+        <email>rahul@gmail.com</email>
+        <age>22</age>
+        <course>MCA</course>
+    </student>
+</students>
