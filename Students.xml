@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    
+    <!ELEMENT student (name, email, phone, age, course)>
+    
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+]>
+
+<students>
+    <student>
+        <name>Sameer Verma</name>
+        <email>sameer@gmail.com</email>
+        <phone>9876543210</phone>
+        <age>20</age>
+        <course>BCA</course>
+    </student>
+
+    <student>
+        <name>Om Rai</name>
+        <email>om1234@gmail.com</email>
+        <phone>9123456780</phone>
+        <age>22</age>
+        <course>MCA</course>
+    </student>
+</students>
+
